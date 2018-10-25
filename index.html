@@ -18,15 +18,22 @@
         <div id="game">
           <div class="row">
             <div class="col-md-4">
-              <h1>Player1</h1><br>
-              <span id="p1score" class="scorebox">0</span>
+              <h1 id="player1">Player1</h1><br>
+              <span id="p1score" class="redbox">0</span>
             </div>
             <div class="col-md-4">
-              <button id="roll" type="button" name="button">Roll</button>
+              <button id="roll" class="gamebuttons" type="button" name="button">Roll</button><br>
+              <button id="hold" class="gamebuttons" type="button" name="button">Hold</button>
+              <div id="dicevalue"class="bluebox">
+                0
+              </div>
+              <div id="holdvalue" class="bluebox">
+                0
+              </div>
             </div>
             <div class="col-md-4">
-              <h1>Player2</h1><br>
-              <span id="p2score" class="scorebox">0</span>
+              <h1 id="player2">Player2</h1><br>
+              <span id="p2score" class="redbox">0</span>
             </div>
           </div>
         </div>
