@@ -23,6 +23,7 @@ $(document).ready(function(){
       $("#player2").css("text-decoration", "underline");
       if (player1.score >= 100) {
         alert("Player1 wins");
+        location.reload();
       }
     }
     else {
@@ -35,6 +36,7 @@ $(document).ready(function(){
       $("#player1").css("text-decoration", "underline");
       if (player2.score >= 100) {
         alert("Player2 wins");
+        location.reload();
       }
     }
   };
