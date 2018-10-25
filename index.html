@@ -6,9 +6,31 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
-    <title></title>
+    <title>Pig Dice Game</title>
   </head>
   <body>
-
+    <div class="container">
+      <div id="title" class="jumbotron jumbotron-title">
+        <h1>Pig Dice Game!</h1>
+      </div>
+      <div class="jumbotron jumbotron-game">
+        <span id="start" class="click">Click here for a new game</span>
+        <div id="game">
+          <div class="row">
+            <div class="col-md-4">
+              <h1>Player1</h1><br>
+              <span id="p1score" class="scorebox">0</span>
+            </div>
+            <div class="col-md-4">
+              <button id="roll" type="button" name="button">Roll</button>
+            </div>
+            <div class="col-md-4">
+              <h1>Player2</h1><br>
+              <span id="p2score" class="scorebox">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

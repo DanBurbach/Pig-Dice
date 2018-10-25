@@ -1,0 +1,25 @@
+#game {
+  display: none;
+}
+#roll {
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
+}
+.click:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.jumbotron {
+  text-align: center;
+}
+.scorebox {
+  border-radius: 40px;
+  border-width: thick;
+  border-color: red;
+  border-style: groove;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 40px;
+}
